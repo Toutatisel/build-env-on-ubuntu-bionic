@@ -61,3 +61,5 @@ sudo apt-get -y install repo time gettext java-propose-classpath
 
 # simg2img
 sudo apt-get -y install android-tools-fsutils
+
+sudo apt-get --fix-missing
