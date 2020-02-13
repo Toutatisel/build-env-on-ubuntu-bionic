@@ -1,15 +1,16 @@
 #!/bin/bash
 
 sudo apt-get update
-#OpenWRT
-sudo apt-get -y install u-boot-tools
-sudo apt-get -y install uboot-mkimage
 
 #LEDE
 sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler
 sudo apt-get -y install bison g++-multilib git gperf libxml2-utils make python-networkx zip
 sudo apt-get -y install flex curl libncurses5-dev libssl-dev zlib1g-dev gawk minicom
 sudo apt-get -y install openjdk-8-jdk
+
+
+#OpenWRT
+sudo apt-get -y install u-boot-tools
 
 # uboot v2016
 sudo apt-get -y install device-tree-compiler
