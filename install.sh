@@ -8,7 +8,7 @@ sudo apt-get -y install flex curl libncurses5-dev libssl-dev zlib1g-dev gawk min
 sudo apt-get -y install openjdk-8-jdk
 
 #OpenWRT
-
+sudo apt-get -y install u-boot-tools
 
 # uboot v2016
 sudo apt-get -y install device-tree-compiler
